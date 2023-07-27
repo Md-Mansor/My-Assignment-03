@@ -8,9 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- <html data-theme="cupcake"></html> -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        .lato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
 </head>
 
-<body>
+<body class="lato">
 
 
     <!-- header section -->
@@ -37,7 +43,7 @@
                 </div>
             </div>
             <div class="navbar-start hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
+                <ul class="menu menu-horizontal px-1 font-semibold text-base text-white">
                     <li><a>Home</a></li>
                     <li tabindex="0">
                         <summary>About Us</summary>
@@ -48,7 +54,7 @@
             </div>
             <div class="gap-10">
                 <img src="./images/logo.png" alt="">
-                <h1 class="navbar-center">Fruit Burst</h1>
+                <h1 class="navbar-center text-white text-2xl font-bold">Fruit Burst</h1>
             </div>
             <div class="navbar-end  hidden lg:flex ">
                 <input type="text" placeholder="Search Here"
@@ -120,12 +126,34 @@
                 </div>
             </div>
         </div>
+        <div class="hidden md:hidden lg:grid lg:grid-cols-5 lg:absolute  bg-slate-50 p-10 w-2/3  right-0 left-80 -bottom-36 shadow-xl rounded-md">
+            <div class="flex flex-col items-center">
+              <img src="./images/fruit1.png" alt="">
+              <p>Grapes </p>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="./images/fruit2.png" alt="">
+              <p>Orange</p>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="./images/fruit3.png" alt="">
+              <p>Mango</p>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="./images/fruit4.png" alt="">
+              <p>Strawberry</p>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="./images/fruit5.png" alt="">
+              <p>Pomegranate</p>
+            </div>
+          </div>
     </section>
 
 
 
         <!-- countdown -->
-        <section class="flex flex-wrap justify-around pt-10 items-center">
+        <section class="flex flex-wrap justify-around items-center lg:pt-52">
             <div>
                 <h1 class="font-extrabold text-5xl">
                     Deal of the day
