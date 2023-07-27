@@ -14,8 +14,8 @@
 
 
     <!-- header section -->
-    <header class="p-10">
-        <div class="navbar rounded-full	 bg-red-500">
+    <header class="">
+        <div class="navbar rounded-full	 lg:bg-red-500">
             <div>
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -50,7 +50,7 @@
                 <img src="./images/logo.png" alt="">
                 <h1 class="navbar-center">Fruit Burst</h1>
             </div>
-            <div class="navbar-end">
+            <div class="navbar-end hidden lg:flex ">
                 <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto rounded-full " />
             </div>
         </div>
@@ -61,77 +61,44 @@
 
 
     <!-- main section  -->
-    <main class="p-7">
+    <main class="p-5">
+        <!-- banner section -->
+
         <div class="carousel w-full">
             <div id="slide1" class="carousel-item relative w-full">
-                <div class="hero min-h-screen" style="background-image: url(./images/banner1.png);">
-                    <div class="hero-overlay bg-opacity-50"></div>
-                    <div class="hero-content text-center text-neutral-content">
-                        <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
-                            <p class="mb-5">We supply highly quality organic products</p>
-                            <button class="btn btn-primary">Shop Now</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a>
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                </div>
-            </div>
+              <img src="/images/banner1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
             <div id="slide2" class="carousel-item relative w-full">
-                <div class="hero min-h-screen" style="background-image: url(./images/banner2.png);">
-                    <div class="hero-overlay bg-opacity-50"></div>
-                    <div class="hero-content text-center text-neutral-content">
-                        <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
-                            <p class="mb-5">We supply highly quality organic products</p>
-                            <button class="btn btn-primary">Shop Now</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a>
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                </div>
-            </div>
+              <img src="/images/banner2.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
             <div id="slide3" class="carousel-item relative w-full">
-                <div class="hero min-h-screen" style="background-image: url(./images/banner3.png);">
-                    <div class="hero-overlay bg-opacity-50"></div>
-                    <div class="hero-content text-center text-neutral-content">
-                        <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
-                            <p class="mb-5">We supply highly quality organic products</p>
-                            <button class="btn btn-primary">Shop Now</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle">❮</a>
-                    <a href="#slide4" class="btn btn-circle">❯</a>
-                </div>
-            </div>
+              <img src="/images/banner3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
             <div id="slide4" class="carousel-item relative w-full">
-                <div class="hero min-h-screen" style="background-image: url(./images/banner4.png);">
-                    <div class="hero-overlay bg-opacity-50"></div>
-                    <div class="hero-content text-center text-neutral-content">
-                        <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
-                            <p class="mb-5">We supply highly quality organic products</p>
-                            <button class="btn btn-primary">Shop Now</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle">❮</a>
-                    <a href="#slide1" class="btn btn-circle">❯</a>
-                </div>
+              <img src="/images/banner4.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
             </div>
-        </div>
+          </div>
+        
 
 
         <!-- countdown -->
-        <section class="flex justify-around pt-10 items-center">
+        <section class="flex flex-wrap justify-center pt-10 items-center">
             <div>
                 <h1 class="font-extrabold text-5xl">
                     Deal of the day
@@ -142,25 +109,25 @@
 
             <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
                 <div class="flex flex-col">
-                    <span class="countdown font-mono text-5xl">
+                    <span class="countdown text-5xl">
                         <span style="--value:15;"></span>
                     </span>
                     days
                 </div>
                 <div class="flex flex-col">
-                    <span class="countdown font-mono text-5xl">
+                    <span class="countdown text-5xl">
                         <span style="--value:10;"></span>
                     </span>
                     hours
                 </div>
                 <div class="flex flex-col">
-                    <span class="countdown font-mono text-5xl">
+                    <span class="countdown text-5xl">
                         <span style="--value:24;"></span>
                     </span>
                     min
                 </div>
                 <div class="flex flex-col">
-                    <span class="countdown font-mono text-5xl">
+                    <span class="countdown  text-5xl">
                         <span style="--value:54;"></span>
                     </span>
                     sec
@@ -170,7 +137,7 @@
 
         <!-- card-->
         <section class="pb-10">
-            <div class="grid grid-flow-col py-12 px-12">
+            <div class="flex flex-wrap justify-center py-12 ">
                 <div class="card bg-base-100 m-2 border-2">
                     <figure class="px-10 pt-10">
                         <img src="/images/fruit6.png" alt="Apples" class="rounded-sm" />
@@ -250,35 +217,32 @@
         <section>
 
 
-            <div class="hero min-h-screen" style="background-image: url(./images/team.png);">
-                <div class="hero-overlay bg-opacity-60"></div>
-                <div class="hero-content text-center text-neutral-content">
-                    <div class="">
-                        <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
-                        <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece
-                            of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                        <div class="grid grid-cols-4 items-center justify-center">
-                            <div>
-                                <img src="./images/member1.png" alt="">
-                                <h1>Awlad Hossain</h1>
-                                <p>Fruits Expert</p>
-                            </div>
-                            <div>
-                                <img src="./images/member2.png" alt="">
-                                <h1>Awlad Hossain</h1>
-                                <p>Fruits Expert</p>
-                            </div>
-                            <div>
-                                <img src="./images/member3.png" alt="">
-                                <h1>Awlad Hossain</h1>
-                                <p>Fruits Expert</p>
-                            </div>
-                            <div>
-                                <img src="./images/member4.png" alt="">
-                                <h1>Awlad Hossain</h1>
-                                <p>Fruits Expert</p>
-                            </div>
-                        </div>
+            <div class=" rounded-xl h-full bg-cover bg-center " style="background-image: url(./images/team.png);  ">
+                <div class="text-center text-white">
+                    <h1 class="mb-5 text-5xl font-bold ">Meet the team section</h1>
+                    <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece
+                        of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class=" flex flex-col lg:flex-row py-8 justify-center text-center gap-12 ">
+                    <div class="text-white">
+                        <img class="mx-auto" src="./images/member1.png" alt="">
+                        <h1  class="text-xl font-bold">Awlad Hossain</h1>
+                        <p class="text-lg font-semibold">Fruits Expert</p>
+                    </div>
+                    <div class="text-white">
+                        <img class="mx-auto" src="./images/member2.png" alt="">
+                        <h1  class="text-xl font-bold">Awlad Hossain</h1>
+                        <p class="text-lg font-semibold">Fruits Expert</p>
+                    </div>
+                    <div  class="text-white">
+                        <img class="mx-auto" src="./images/member3.png" alt="">
+                        <h1  class="text-xl font-bold">Awlad Hossain</h1>
+                        <p class="text-lg font-semibold">Fruits Expert</p>
+                    </div>
+                    <div  class="text-white">
+                        <img class="mx-auto" src="./images/member4.png" alt="">
+                        <h1 class="text-xl font-bold">Awlad Hossain</h1>
+                        <p class="text-lg font-semibold">Fruits Expert</p>
                     </div>
                 </div>
             </div>
@@ -293,7 +257,7 @@
                     roots in a
                     piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
-            <div class=" flex justify-around">
+            <div class=" flex flex-wrap justify-around">
                 <div class=" grid grid-flow-row ">
                     <ul>
                         <li>
@@ -360,7 +324,7 @@
 
     <!-- footer section -->
 
-    <footer class="footer footer-center p-10 bg-neutral-900 text-primary-content">
+    <footer class="footer footer-center py-10 bg-neutral-900 text-primary-content">
 
         <div class="grid grid-flow-col gap-5    ">
             <a><img src="./images/logo.png" alt=""></a>
@@ -368,7 +332,7 @@
             <!-- &copy; Copyrights Reserved to AwladHossain -->
         </div>
         <div class="font-semibold text-base">
-            <ul class="grid grid-flow-col gap-10">
+            <ul class="flex flex-wrap justify-center gap-10">
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Shop</li>
@@ -378,7 +342,7 @@
             </ul>
         </div>
         <div>
-            <div class="grid grid-flow-col gap-6">
+            <div class="flex flex-wrap gap-6">
                 <a><img src="./images/twitter 1.svg" alt=""></a>
                 <a><img src="./images/facebook 1.svg" alt=""></a>
                 <a><img src="./images/youtube1.svg" alt=""></a>
